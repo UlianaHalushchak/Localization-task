@@ -1,11 +1,6 @@
 body {
 	text-align: left;
-	background-image: url(img_la la land.jpg);
-}
 
-img {
-    border-radius: 8px;
-}
 
 .lang {
 	display: none;
@@ -17,12 +12,12 @@ img {
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 50px;
 	color:#fff;
 }
 
 #welcome-message {
-	font-size: 50px;
+	font-size: 40px;
 	background-color: #F6DDCC;
 	margin: 0 auto;
 	font-style: italic;
