@@ -1,6 +1,7 @@
 body {
 	text-align: left;
-
+	background-color: #F1948A;
+}
 
 .lang {
 	display: none;
@@ -12,27 +13,28 @@ body {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 40px;
 	color:#fff;
 }
 
 #welcome-message {
-	font-size: 40px;
-	background-color: #F6DDCC;
+	font-size: 30px;
+	background-color: #FAE5D3;
 	margin: 0 auto;
-	font-style: italic;
+	width: 450px;
+	font-style: normal;
+	border-radius: 5px;
 }
 
 #languages label {
-	color: #F6DDCC;
+	color: #eee8f3;
 	font-weight: bold;
-	font-size: 25px;	
+	font-size: 35px;
 }
 
 input[type="radio"] {
 	background-color: #ccc;
 	border-radius: 10px;
-	cursor: pointer;
 	display: inline-block;
 	height: 25px;
 	position: relative;
@@ -52,6 +54,7 @@ input[type="radio"]:after {
 input[type="radio"]:checked:after {
 	background-color: #F6DDCC;
 }
+
 button#save {
 	padding: 5px 30px;
 	margin-top: 20px;
@@ -65,7 +68,8 @@ button#save {
 	font-weight: bold;
 	-webkit-transition: all 1.1s ease;
 	transition: all 1.1s ease;
-   }
+    
+}
 
 button#save:hover {
 	color:#fff;
@@ -73,4 +77,5 @@ button#save:hover {
 	border:1px solid #fff;
 	-webkit-transition: all 1.1s ease;
 	transition: all 1.1s ease;
-   }
+    
+}
